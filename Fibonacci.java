@@ -1,3 +1,6 @@
+//A fibonacci is a special kind of series which adds previous two nubers to form the third
+//0 1 1 2 3 5 8 ...
+
 class Fibonacci {
   public static void main(String args[]) {
     fibo();
