@@ -1,8 +1,10 @@
 import java.util.Scanner;
 import java.io.Console;
 
+// Main method 
 class Io{
 	public static void main(String args[]){
+		// Initiate scanner class 
 		Scanner sc1=new Scanner(System.in);
 		Scanner sc2=new Scanner("a.txt");
 		System.out.println(sc1==sc2);
