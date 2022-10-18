@@ -1,3 +1,4 @@
+// MAKING METHOD FOR THE SUDOKU PUZZLE
 public class SudokuPuzzle {
     public boolean isSafe(int[][] b, int r, int c, int n) {
         for (int d = 0; d < b.length; d++) {
@@ -57,7 +58,7 @@ public class SudokuPuzzle {
         }
         return false;
     }
-
+    // DISPLAY METHOD
     public void display(int[][] b, int n) {
         for (int i = 0; i < n; i++) {
             for (int d = 0; d < n; d++) {
@@ -71,7 +72,7 @@ public class SudokuPuzzle {
         }
     }
 
-
+    // METHOD METHOD
     public static void main(String argvs[]) {
         int[][] b = new int[][] {
             { 8, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -84,7 +85,7 @@ public class SudokuPuzzle {
             { 0, 0, 8, 5, 0, 0, 0, 1, 0 },
             { 0, 9, 0, 0, 0, 0, 4, 0, 0 }
         };
-
+        // MAKING OBJECT
         SudokuPuzzle obj = new SudokuPuzzle();
         int size = b.length;
 
