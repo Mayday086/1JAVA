@@ -1,6 +1,9 @@
 import java.util.Scanner;
+
+//Main method
 class MatrixRowwiseSort{
 	public static void main(String[] args){
+		// Start of scanner class
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter no. of rows:	");
 		int r=sc.nextInt();
