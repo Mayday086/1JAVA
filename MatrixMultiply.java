@@ -1,6 +1,8 @@
 import java.util.Scanner;
+// MAIN METHOD
 class MatrixMultiply{
 	public static void main(String args[]){
+		//USING SCANNER CLASS
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter no. of rows in Matrix 1:	");
 		int r1=sc.nextInt();
@@ -11,7 +13,7 @@ class MatrixMultiply{
 		int r2=sc.nextInt();
 		System.out.print("Enter no. of coloumns in Matrix 2:	");
 		int c2=sc.nextInt();
-		
+		// CONDITIONALS STATEMENT
 		if(c1!=r2){
 			System.out.print("Invalid dimensions so can't multiply!!");
 			System.exit(1);
