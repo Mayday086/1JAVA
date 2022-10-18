@@ -22,7 +22,7 @@ class CountingSort {
             arr[i] = output[i];
         }
     }
-  
+  //method printArray
     static void printArray(int[] arr)
     {
         for (int i = 0; i < arr.length; i++) {
@@ -30,11 +30,13 @@ class CountingSort {
         }
         System.out.println("");
     }
-  
+  // This is the main method 
     public static void main(String[] args)
     {
         int[] arr = { -19, -21, -10, -11, -13, 17, 37, 53, -73, 32, 27, 29, 47 };
-        countSort(arr);
+      // Execution of countSort start from here  
+      countSort(arr);
+      // Execution of printArray start from here
         printArray(arr);
     }
 }
