@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+// Binary Search Method 
 class BinarySearch{
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
@@ -32,6 +34,7 @@ class BinarySearch{
 			else
 				high=mid-1;
 		}
+		// If condition
 		if(found==true)
 			System.out.println("Number is found at pos " + (mid+1));
 		else
