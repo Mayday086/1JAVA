@@ -1155,7 +1155,7 @@ public class Blowfish {
         ans = addBin(ans, a[3]);
         return ans;
     }
-
+    //Code to
     //generate subkeys
     private void keyGenerate(String key) {
         int j = 0;
